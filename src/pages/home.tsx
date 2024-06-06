@@ -1,4 +1,4 @@
-import CalendarComponent from "@/components/calendar";
+import CalendarComponent from "../components/calendar/index";
 // import { callMsGraph } from '@/services/graph';
 // import { loginRequest } from '@/services/request';
 // import { useMsal } from '@azure/msal-react';
