@@ -1,0 +1,29 @@
+// Reponsive calendar
+
+// Calendar header
+@media (max-width: 520px) {   
+    .fc-toolbar-title {
+        margin: 24px 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+    .fc {
+        .fc-toolbar {
+            display: initial !important;
+        }
+    }
+    .fc-toolbar-chunk{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.fc-today-button {
+    .fc-button{
+        .fc-button-primary{
+            outline: none;
+        }
+    }
+}
+
+
